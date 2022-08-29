@@ -1,0 +1,220 @@
+:root{
+	--blue: #53a7ea;
+	--yellow: #def15c;
+	--btn-shadow: 3px 3px #53a7ea,
+		5px 5px #53a7ea,
+		7px 7px #53a7ea;
+	--box-shadow: 7px 7px 4px 5px rgba(0, 0, 0, 0.4);
+	--galano: 'Galano Grotesque Bold';
+	--poppins: 'Poppins', sans-serif;
+	--woodchuck-bold: 'Woodchuck Bold', sans-serif;
+	--transition: all 0.2s ease-in-out;
+	--max-width: 1200px;
+	--border-radius: 2.4375rem;
+}
+.app {
+	font-family: var(--galano);
+	line-height: 1.5;
+	color: var(--clr-fg);
+	background: var(--clr-bg);
+	padding-bottom: 50px;
+}
+.light {
+	--clr-bg: linear-gradient(132deg, rgb(251, 251, 255) 0.00%, rgb(215, 223, 252) 100.00%);
+	--clr-bg-alt: #fff;
+	--clr-fg: #555;
+	--clr-fg-alt: #444;
+	--clr-primary: #2978b5;
+	--shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dark {
+	--clr-bg: linear-gradient(307deg, rgb(65, 80, 95) 63.43%, rgb(36, 37, 38) 100.00%);
+	--clr-bg-alt: #2a2f4c;
+	--clr-fg: #bdbddd;
+	--clr-fg-alt: #cdcdff;
+	--clr-primary: #90a0d9;
+	--shadow: rgba(0, 0, 0, 0.16) 0px 5px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+a{
+	color: var(--clr-fg-alt);
+}
+main {
+	max-width: var(--max-width);
+	width: 95%;
+	padding: 0 50px;
+	margin: 0 auto;
+	border: 2px solid var(--clr-fg-alt);
+	border-radius: var(--border-radius);
+	box-shadow: var(--btn-shadow);
+}
+
+.section {
+	margin-top: 4em;
+	padding: 2em 0 5em;
+	position: relative;
+}
+
+.section p,
+.section li{
+	font-family: var(--poppins);
+}
+
+.section__title {
+	font-family: var(--woodchuck-bold);
+	margin-bottom: 1em;
+	text-transform: lowercase;
+	left: 0;
+	border-bottom: 5px solid var(--blue);
+	width: fit-content;
+}
+
+.section .image-column img{
+	align-self: center;
+	width: 50%;
+	max-width: 150px;
+	margin-left: auto;
+	filter: grayscale(1);
+}
+
+.section .single-work-column{
+	margin: 0em -0.75em 3em -0.75em;
+}
+
+.img-box-shadow{
+	box-shadow: var(--box-shadow);
+	margin: 1em 0;
+	border: 2px solid var(--clr-fg-alt);
+	border-radius: var(--border-radius);
+}
+
+.center {
+	display: flex;
+	align-items: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.link {
+	color: var(--blue);
+	padding: 0 0 0.3em 0;
+	position: relative;
+}
+
+.link:hover {
+	color: var(--blue);
+}
+
+.link::before {
+	content: '';
+	display: inline;
+	width: 0;
+	height: 0.2em;
+	position: absolute;
+	bottom: 0;
+	background-color: var(--blue);
+	transition: width 0.2s ease-in;
+}
+
+.link:hover::before,
+.link:focus::before {
+	width: 100%;
+}
+
+.link--nav {
+	color: var(---blue);
+	text-transform: lowercase;
+	font-weight: 500;
+}
+
+.link--icon {
+	color: var(---blue);
+}
+
+.btn {
+	display: block;
+	cursor: pointer;
+	padding: 0.8em 1.4em;
+	font-weight: 500;
+	font-size: 0.9rem;
+	text-transform: lowercase;
+	transition: transform 0.2s ease-in-out;
+	color: var(--clr-fg-alt);
+}
+
+.btn--outline {
+	color: var(--clr-primary);
+	border: 2px solid var(--clr-primary);
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.btn--outline:hover,
+.btn--outline:focus {
+	color: var(--clr-bg);
+}
+
+.btn--outline:before {
+	content: '';
+	position: absolute;
+	background-color: var(--clr-primary);
+	right: 100%;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	transition: right 0.2s ease-in-out;
+}
+
+.btn--outline:hover:before,
+.btn--outline:focus:before {
+	right: 0;
+}
+.btn--icon {
+	padding: 0;
+}
+
+.btn--icon:hover,
+.btn--icon:focus {
+	color: var(--clr-primary);
+}
+
+.btn--icon:active {
+	transform: translateY(-5px);
+}
+
+.btn--plain {
+	display: flex;
+	justify-content: space-between;
+    text-transform: initial;
+	position: relative;
+    background-color: var(--clr-bg-alt);
+    cursor: pointer;
+    font-size: 14px;
+    transition: var(--transition);
+    box-shadow: var(--btn-shadow);
+    transform: translate(-7px, -7px);
+	margin: 0 1em;
+	align-items: center;
+	border: 2px solid var(--clr-fg-alt);
+	border-radius: 2.4375rem;
+	padding: 1rem 1.875rem;
+}
+
+.btn--plain:hover {
+	box-shadow: none;
+	transform: translate(0, 0);
+}
+
+.title, .subtitle{
+	color: var(--clr-fg-alt);
+}
+
+@media (max-width: 600px) {
+	.section {
+		margin-top: 4em;
+	}
+}

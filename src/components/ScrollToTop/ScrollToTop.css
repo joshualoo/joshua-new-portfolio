@@ -1,0 +1,29 @@
+.scroll-top {
+	position: fixed;
+	bottom: 2em;
+	right: 4em;
+	background-color: transparent;
+	border: 2px solid var(--clr-fg-alt);
+	border-radius: 50%;
+	width: 48px;
+	height: 44px;
+	text-align: center;
+	box-shadow: var(--btn-shadow);
+	transform: translate(-7px, -7px);
+	transition: var(--transition);
+	z-index: 99;
+}
+.scroll-top a:hover{
+	color: var(--clr-fg-alt);
+}
+.scroll-top:hover {
+	box-shadow: none;
+	transform: translate(0, 0);
+	cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .scroll-top {
+    display: none;
+  }
+}

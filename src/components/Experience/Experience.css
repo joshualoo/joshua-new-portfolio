@@ -1,0 +1,64 @@
+.exp__list-company{
+	font-family: var(--galano);
+	font-size: 1.25em;
+	font-weight: 600;
+	line-height: 1px;
+}
+.exp__list-current-company{
+	white-space: pre-line;
+	display: inline-block;
+	width: 100%;
+	font-size: 0.8em;
+	padding-bottom: 5px;
+	font-family: var(--poppins);
+	font-weight: 500;
+}
+.exp__list-title {
+	font-family: var(--galano);
+	font-size: 1em;
+	font-weight: 400;
+	padding-bottom: 3px;
+	line-height: 30px;
+	border-bottom: 2px solid var(--blue);
+	
+}
+.exp__list-length {
+	font-family: var(--galano);
+	font-size: 0.85em;
+	font-weight: 400;
+	color: #999;
+	display: inline-block;
+	padding-top: 6px;
+	margin-top: 2px;
+	letter-spacing: 0.45px;
+}
+.MuiTimeline-positionRight{
+	padding-left: 0 !important;
+}
+.MuiTimelineDot-root{
+	padding: 3px!important;
+	background: var(--blue)!important;
+	animation: pulse-animation 2s infinite;
+	transition: var(--transition);
+}
+.MuiTimelineOppositeContent-positionRight{
+	text-align: left !important;
+	padding-left: 30px !important;
+	padding-bottom: 60px !important;
+}
+.MuiTimelineItem-positionRight{
+	max-width: 600px!important;
+}
+
+.pulse {
+	animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+	0% {
+		box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+	}
+	100% {
+		box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+	}
+}
