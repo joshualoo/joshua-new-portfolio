@@ -4,13 +4,14 @@ import { ThemeContext } from '../../contexts/theme'
 import ProjectsNavbar from '../ProjectsNavbar/ProjectsNavbar'
 
 
-const rezgoMarketing = () => {
+const rezgoFrontEnd = () => {
 	return (
 		<div>
 
-			<ProjectNavbar/>
+
+			<ProjectsNavbar/>
 		</div>
 	)
 }
 
-export default rezgoMarketing
+export default rezgoFrontEnd

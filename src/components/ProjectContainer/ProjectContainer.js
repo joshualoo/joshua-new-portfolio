@@ -1,6 +1,6 @@
 import uniqid from 'uniqid'
 import './ProjectContainer.css'
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"
 
 const ProjectContainer = ({ project }) => (
 

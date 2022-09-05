@@ -59,7 +59,7 @@ const chie = () => {
 							Built with Wordpress.
 							<br />
 							<br />
-							Used ACF to manage the career applications page.
+							Used ACF PRO to manage the custom elements of different pages.
 							<br />
 							<br />
 							Customized Polylang and Woocommerce to ensure a consistent
@@ -97,7 +97,7 @@ const chie = () => {
 				</div>
 			</div>
 		</section>
-
+		<ProjectsNavbar/>
 
 	</div>
   )

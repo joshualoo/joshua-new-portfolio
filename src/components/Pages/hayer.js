@@ -1,6 +1,7 @@
 import React from 'react'
 import { useContext } from 'react'
 import { ThemeContext } from '../../contexts/theme'
+import ProjectsNavbar from '../ProjectsNavbar/ProjectsNavbar'
 
 import hayerLogo from "../../images/portfolio/hayer/logo.png";
 
@@ -89,6 +90,7 @@ const hayer = () => {
 					</div>
 				</div>
 			</div>
+			<ProjectsNavbar/>
 		</section>
 
 		{/* <div className="container links-container">

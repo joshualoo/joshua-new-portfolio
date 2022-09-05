@@ -4,7 +4,7 @@ import { ThemeContext } from '../../contexts/theme'
 import ProjectsNavbar from '../ProjectsNavbar/ProjectsNavbar'
 
 
-const rezgoMarketing = () => {
+const rezgoPlugin = () => {
 	return (
 		<div>
 
@@ -13,4 +13,4 @@ const rezgoMarketing = () => {
 	)
 }
 
-export default rezgoMarketing
+export default rezgoPlugin

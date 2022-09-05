@@ -6,7 +6,7 @@ const header = {
 const about = {
 	name: 'Joshua',
 	description:
-		'I am a multidisciplinary web developer. I love typing words into working, functional software.',
+		'I am a motivated Software Engineer looking to make a difference. I love figuring out how things work, which drives my innate curiosity to solve intricate puzzles.',
 	resume: 'https://joshualoo.ca/resume',
 	social: {
 		linkedin: 'https://linkedin.com/in/joshua-loo-kc/',
@@ -19,31 +19,31 @@ const projects = [
 		name: 'Rezgo Frontend',
 		description:
 		'Developed new features and overhauled the UI of the Rezgo booking system.',
-		stack: ['PHP', 'SQL', '', ''],
+		stack: ['PHP', 'SQL'],
 		sourceCode: 'https://github.com/rezgo',
 		livePreview: 'https://joshua.rezgo.com',
-		pageLink:'/rezgo',
+		pageLink:'/rezgo-frontend',
 	},
 	{
 		name: 'Rezgo Marketing Site',
 		description:
-		'Refreshed look aimed at increasing user conversion to Rezgo Booking Engine',
+		'Renewed look and feel aimed at increasing user conversion to Rezgo Booking Engine',
 		stack: ['Node', 'SASS', 'Wordpress', 'ACF'],
 		livePreview: 'https://rezgo.com',
-		pageLink:'/rezgo-marketing-site',
+		pageLink:'/rezgo-marketing',
 	},
 	{
-		name: 'Rezgo Wordpress Plugin',
+		name: 'Rezgo Wordpress Plugin',	
 		description:
-		'Further enhancing the Rezgo experience, available as a standalone Wordpress plugin',
+		'Rezgo Booking Engine as a standalone Wordpress plugin',
 		stack: ['PHP', 'Wordpress'],
-		livePreview: 'https://rezgo.com',
-		pageLink:'/rezgo-marketing-site',
+		livePreview: 'https://wordpress.org/plugins/rezgo/',
+		pageLink:'/rezgo-plugin',
 	},
 	{
 		name: 'Chie Imai',
 		description:
-		'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+		'E-commerce website refresh for a Japanese based retailer',
 		stack: ['Node', 'SASS', 'Wordpress', 'ACF'],
 		livePreview: 'https://chieimai.com',
 		pageLink:'/chie',
@@ -75,7 +75,7 @@ const experiences = [
 	{
 		company: 'Rezgo',
 		current: '• current employer',
-		title: 'Full Stack Developer',
+		title: 'Software Engineer',
 		description:
 		'Responsible for developing new features and maintaining existing functionalities for the Rezgo booking engine. Update, and maintain Rezgo\'s Wordpress plugin that integrates and connect Wordpress sites seamlessly to the Rezgo API.',
 		length: 'Jul 2020 - Present',

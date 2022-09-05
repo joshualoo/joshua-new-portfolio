@@ -24,7 +24,9 @@ const App = () => {
 				<Route path="/" element={<Home/>}/>
 				<Route path="/chie" element={<Chie/>}/>
 				<Route path="/hayer" element={<Hayer/>}/>
-				<Route path="/rezgo-marketing-site" element={<RezgoMarketing/>}/>
+				<Route path="/rezgo-frontend" element={<RezgoFrontEnd/>}/>
+				<Route path="/rezgo-marketing" element={<RezgoMarketing/>}/>
+				<Route path="/rezgo-plugin" element={<RezgoPlugin/>}/>
 			</Routes>
 		</main>
 		<ScrollToTop />
