@@ -1,5 +1,6 @@
 import { header } from '../../portfolio'
 import Navbar from '../Navbar/Navbar'
+import {Link} from "react-router-dom"
 import './Header.css'
 
 const Header = () => {
@@ -9,9 +10,7 @@ const Header = () => {
     <header className='header center'>
       <h3>
         {homepage ? (
-          <a href='/' className='link'>
-            {title}
-          </a>
+			<Link to="/" id="homeLink" className="link black">{title}</Link>
         ) : (
           title
         )}

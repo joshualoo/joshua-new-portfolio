@@ -1,12 +1,12 @@
 const header = {
 		homepage: 'https://joshualoo.ca',
-		title: 'hi.',
+		title: 'home.',
 	}
 
 const about = {
 	name: 'Joshua',
 	description:
-		'I am a motivated Software Engineer looking to make a difference. I love figuring out how things work, which drives my innate curiosity to solve intricate puzzles.',
+		'I am a Software Engineer looking to make a difference. I love figuring out how things work, which drives my innate curiosity to solve intricate puzzles.',
 	resume: 'https://joshualoo.ca/resume',
 	social: {
 		linkedin: 'https://linkedin.com/in/joshua-loo-kc/',
@@ -19,18 +19,10 @@ const projects = [
 		name: 'Rezgo Frontend',
 		description:
 		'Developed new features and overhauled the UI of the Rezgo booking system.',
-		stack: ['PHP', 'SQL'],
+		stack: ['JS', 'PHP', 'SQL', 'CI/CD'],
 		sourceCode: 'https://github.com/rezgo',
 		livePreview: 'https://joshua.rezgo.com',
 		pageLink:'/rezgo-frontend',
-	},
-	{
-		name: 'Rezgo Marketing Site',
-		description:
-		'Renewed look and feel aimed at increasing user conversion to Rezgo Booking Engine',
-		stack: ['Node', 'SASS', 'Wordpress', 'ACF'],
-		livePreview: 'https://rezgo.com',
-		pageLink:'/rezgo-marketing',
 	},
 	{
 		name: 'Rezgo Wordpress Plugin',	
@@ -41,10 +33,18 @@ const projects = [
 		pageLink:'/rezgo-plugin',
 	},
 	{
+		name: 'Rezgo Marketing Site',
+		description:
+		'Renewed look and feel aimed at increasing user conversion to Rezgo Booking Engine',
+		stack: ['PHP', 'SASS', 'Wordpress', 'ACF'],
+		livePreview: 'https://rezgo.com',
+		pageLink:'/rezgo-marketing',
+	},
+	{
 		name: 'Chie Imai',
 		description:
 		'E-commerce website refresh for a Japanese based retailer',
-		stack: ['Node', 'SASS', 'Wordpress', 'ACF'],
+		stack: ['PHP', 'SASS', 'Wordpress', 'ACF'],
 		livePreview: 'https://chieimai.com',
 		pageLink:'/chie',
 	},
@@ -52,7 +52,7 @@ const projects = [
 		name: 'Hayer Builders Group',
 		description:
 		'Website refresh highlighting the many developments done by the company.',
-		stack: ['Node', 'SASS', 'Wordpress', 'ACF'],
+		stack: ['PHP', 'SASS', 'Wordpress', 'ACF'],
 		livePreview: 'https://hayerbuildersgroup.com',
 		pageLink:'/hayer',
 	},

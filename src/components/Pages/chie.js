@@ -33,9 +33,8 @@ const chie = () => {
 				</div>
 
 				<div className="columns single-work-column">
-					<div className="column is-two-thirds">
-						<h2 className="section__title is-size-3">brief</h2>
-
+					<div className="column is-four-fifths">
+						<h2 className="section__title is-size-3">a brief description</h2>
 						<p>
 							A refresh of their previous website with a revamped design. In
 							addition to that, there was a need to market their products to the
@@ -51,10 +50,10 @@ const chie = () => {
 					</div>
 					<div className="column"></div>
 				</div>
+				<hr />
 
 				<div className="columns single-work-column">
-					<div className="column is-two-thirds">
-						<h2 className="section__title">in sentences</h2>
+					<div className="column is-four-fifths">
 						<p>
 							Built with Wordpress.
 							<br />

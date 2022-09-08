@@ -18,9 +18,7 @@
 	font-size: 1em;
 	font-weight: 400;
 	padding-bottom: 3px;
-	line-height: 30px;
 	border-bottom: 2px solid var(--blue);
-	
 }
 .exp__list-length {
 	font-family: var(--galano);
@@ -43,8 +41,7 @@
 }
 .MuiTimelineOppositeContent-positionRight{
 	text-align: left !important;
-	padding-left: 30px !important;
-	padding-bottom: 60px !important;
+	padding: 12px 0 60px 5px!important;
 }
 .MuiTimelineItem-positionRight{
 	max-width: 600px!important;
@@ -56,9 +53,20 @@
 
 @keyframes pulse-animation {
 	0% {
-		box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0 0 0px var(--blue);
 	}
 	100% {
 		box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+	}
+}
+
+@media (max-width: 600px){
+	.MuiTimelineSeparator-root{
+		display: none!important;
+	}
+}
+@media (max-width: 480px){
+	.exp__list-title{
+		line-height: 30px;
 	}
 }

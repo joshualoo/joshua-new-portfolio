@@ -36,7 +36,7 @@ const hayer = () => {
 
 				<div className="columns single-work-column">
 					<div className="column is-two-thirds">
-						<h2 className="section__title is-size-3">brief</h2>
+						<h2 className="section__title is-size-3">a brief description</h2>
 
 						<p>
 							Hayer Builders Group website refresh.
@@ -52,10 +52,10 @@ const hayer = () => {
 					</div>
 					<div className="column"></div>
 				</div>
+				<hr />
 
 				<div className="columns single-work-column">
 					<div className="column is-two-thirds">
-						<h2 className="section__title is-size-3">in sentences</h2>
 						<p>
 							Built with a custom Wordpress starter theme with Bootstrap.
 							<br />
@@ -90,33 +90,9 @@ const hayer = () => {
 					</div>
 				</div>
 			</div>
-			<ProjectsNavbar/>
 		</section>
+		<ProjectsNavbar/>
 
-		{/* <div className="container links-container">
-			<div className="columns is-vcentered is-mobile">
-				<div className="column is-one-third-mobile">
-					<Link className="link" to="/bcsca">
-						{" "}
-						&larr; Prev
-					</Link>
-				</div>
-
-				<div className="column is-one-third-mobile has-text-centered">
-					<Link className="link" to="/">
-						{" "}
-						Home
-					</Link>
-				</div>
-
-				<div className="column is-one-third-mobile has-text-right">
-					<Link className="link" to="/chie-imai">
-						{" "}
-						Next &rarr;
-					</Link>
-				</div>
-			</div>
-		</div> */}
 	</div>
   )
 }

@@ -28,3 +28,12 @@
 	background-color: var(--blue);
 	transition: var(--transition);
 }
+
+@media (max-width: 768px){
+	.skills__list-item {
+		width: 45%;
+	}
+		.skills__list-item::before {
+			width: 90%;
+		}
+}

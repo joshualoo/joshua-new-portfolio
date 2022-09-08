@@ -1,8 +1,20 @@
 .projectNavbar-wrapper{
 	display: flex;
 	justify-content: center;
-	width: 80%;
-	margin: 20px auto;
+	width: 50%;
+	margin: 20px auto 40px;
+}
+
+.projectNavbar-wrapper .columns{
+	display: flex;
+	width: 100%;
+	text-align: center;
+}
+
+@media (max-width: 768px){
+	.projectNavbar-wrapper {
+		width: 100%;
+	}
 }
 
 .projectNavbar-wrapper .link{
