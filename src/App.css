@@ -86,7 +86,7 @@ main {
 
 .img-box-shadow{
 	box-shadow: var(--box-shadow);
-	margin: 1em 0;
+	margin: 2.5em 0;
 	border: 2px solid var(--clr-fg-alt);
 	border-radius: var(--border-radius);
 }
@@ -243,6 +243,6 @@ hr{
 		margin-top: 2em;
 	}
 	main {
-		padding: 0 30px;
+		padding: 0 3rem;
 	}
 }

@@ -75,6 +75,7 @@ const rezgoFrontEnd = () => {
 						<div className="column is-half">
 							<ReactCompareSlider className="img-box-shadow restrict-height sm top" 
 								position={sliderPosition}
+								changePositionOnHover={true}
 							 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 								itemTwo={<ReactCompareSliderImage src={home} alt="Home" />}
 								itemOne={<ReactCompareSliderImage src={home_old} alt="Home Old"/>}
@@ -99,6 +100,7 @@ const rezgoFrontEnd = () => {
 						<div className="column is-half">
 							<ReactCompareSlider className="img-box-shadow restrict-height md top"
 								position={sliderPosition}
+								changePositionOnHover={true}
 							 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 								itemTwo={<ReactCompareSliderImage src={details} alt="Details Page" />}
 								itemOne={<ReactCompareSliderImage src={details_old} alt="Details Page Old" />}
@@ -114,6 +116,7 @@ const rezgoFrontEnd = () => {
 						<div className="column">
 							<ReactCompareSlider className="img-box-shadow restrict-height md"
 								position={sliderPosition}
+								changePositionOnHover={true}
 							 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 								itemTwo={<ReactCompareSliderImage src={order_page} alt="Order Page" />}
 								itemOne={<ReactCompareSliderImage src={order_page_old} alt="Order Page Old" />}
@@ -129,6 +132,7 @@ const rezgoFrontEnd = () => {
 						<div className="column">
 							<ReactCompareSlider className="img-box-shadow restrict-height top"
 								position={sliderPosition}
+								changePositionOnHover={true}
 							 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 								itemTwo={<ReactCompareSliderImage src={receipt_page} alt="Receipt Page" />}
 								itemOne={<ReactCompareSliderImage src={receipt_page_old} alt="Receipt Page Old" />}
@@ -144,6 +148,7 @@ const rezgoFrontEnd = () => {
 					<div className="columns portfolio-img__columns">
 						<ReactCompareSlider className="img-box-shadow restrict-height top"
 								position={sliderPosition}
+								changePositionOnHover={true}
 							 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 								itemTwo={<ReactCompareSliderImage src={header_new} alt="Receipt Page" />}
 								itemOne={<ReactCompareSliderImage src={header} alt="Receipt Page Old" />}
@@ -153,12 +158,14 @@ const rezgoFrontEnd = () => {
 					<div className="columns portfolio-img__columns is-justify-content-space-around">
 						<ReactCompareSlider className="img-box-shadow is-one-third"
 								position={sliderPosition}
+								changePositionOnHover={true}
 							 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 								itemTwo={<ReactCompareSliderImage src={elements_new} alt="Receipt Page" />}
 								itemOne={<ReactCompareSliderImage src={elements} alt="Receipt Page Old" />}
 							/>
 						<ReactCompareSlider className="img-box-shadow is-one-third"
 							position={sliderPosition}
+							changePositionOnHover={true}
 						 	handle={<ReactCompareSliderHandle style={{color: handleColor}} />}
 							itemTwo={<ReactCompareSliderImage src={calendar_new} alt="Receipt Page" />}
 							itemOne={<ReactCompareSliderImage src={calendar} alt="Receipt Page Old" />}
